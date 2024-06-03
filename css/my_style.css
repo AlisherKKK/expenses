@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Mate+SC&family=Noto+Sans+JP:wght@300&display=swap');
+
+body{
+	font-family: 'Noto Sans JP', sans-serif;
+}
+.main{
+	background-image: url(hello.jpg);
+	height: 100vh;
+	font-family: 'Noto Sans JP', sans-serif;
+	background-size: cover;
+}
+.main_information{
+	height: 100vh;
+	width: 100%;
+}
+.main_page{
+	height: 100%;
+	display: flex;
+	align-items: center;
+
+}
+.main_page p{
+	font-size: 24px;
+}
+.main_page h1{
+	font-size: 45px;
+}
+.main_page button{
+	font-size: 18px;
+}
+.experience{
+	width: 100%;
+}
+.experience h4{
+	font-size: 14px;
+	font-weight: bold;
+}
+.dflex{
+	display: flex;
+}
+.info{
+	width: 80%;
+}
+.desc p{
+	font-size: 14px;
+}
+.date{
+	width: 20%;
+}
+.date{
+	text-align: center;
+}
+.experience h1{
+	font-size: 30px;
+}
+.img{
+	background-image: url('me2.jpg');
+	height: 300px;
+	width: 65%;
+	margin-left: 15%;
+}
+.main_info{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+.main_info h1{
+	font-family: 'Mate SC', serif;
+	font-size: 24px;
+}
+.my_info{
+	text-align: center;
+}
+.my_info h5{
+	font-weight: 700;
+	font-size: 14px;
+}
+.my_info h4{
+	font-size: 14px;
+}
+.my_info p{
+	text-align: left;
+	word-spacing: .2rem;
+	font-size: 12px;
+}
+.progress{
+	width: 50%;
+	height: 10px;
+    border-radius: 5px; 
+    background-color: red;
+}
+.val{
+	height: 100%;
+	background-color: green;
+		font-size: 14px;
+	text-align: center;
+}
+.val1{
+	width: 85%;
+}
+.val2{
+	width: 87%;
+}
+.val5{
+	width: 95%;
+}
+.val3{
+	width: 90%;
+}
+.val4{
+	width: 78%;
+}
+.val6{
+	width: 70%;
+}
+.val7{
+	width: 75%;
+}
+.val8{
+	width: 65%;
+}
+.val11{
+	width: 100%;
+}
+.val12{
+	width: 100%;
+}
+.val15{
+	width: 35%;
+}
+.val13{
+	width: 75%;
+}
+.val14{
+	width: 60%;
+}
+.skill_text{
+	font-size: 14px;
+}
+.skill{
+	width: 40%;
+}
+
+@media only screen and (max-device-width: 900px) {
+    .dflex{
+    	display: block;
+    }
+    .col-4{
+    	width: 200% !important;
+    }
+    .img{
+    	height: 500px;
+    }
+    section{
+    	width: 90%;
+    }
+    .my_info{
+    	width: 90%;
+    }
+}
+
